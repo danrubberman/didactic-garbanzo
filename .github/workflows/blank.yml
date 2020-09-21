@@ -1,33 +1,47 @@
-# This is a basic workflow to help you get started with Actions
+d5b79974139682dd9cee1d00109b71a9b4c041f3	not-for-merge	branch 'fix-progressive-bundle' of https://github.com/cascadiajs/cascadiajs-2020
 
-name: CI
+master# This is a basic workflow to help you get started with Actions
+branches
+push
+ci
+branches
+pull
+master
+runs
+jobs
+Hello
+world
+go
+pub;Copyright Holder All Rights Reserved.
+style# Controls when the action will run. Triggers the workflow on push or pull request
+#eventmaster
+ events but only for the master branch
+unbuntu
+master
+Copyright (c) 2018 Copyright Holder All Rights Reserved
+: [ master ]=true
+widget
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
+jobs:ru sponsorunbuntulTEST
+
   # This workflow contains a single job called "build"
-  build:
+  build
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    : ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
+    :
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    - uses: actions/checkout@v2
+    - : actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: Run a one-line script
-      run: echo Hello, world!
+    - : Run a one-line script
+      : echo Hello, world!
 
     # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
-      run: |
+: Run a multi-line script
+      r |
         echo Add other actions to build,
         echo test, and deploy your project.
